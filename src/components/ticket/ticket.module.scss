@@ -1,21 +1,19 @@
 .wrapper{
-  margin: 50px 0 0 0 ;
-  width: 502px;
-  height: 184px;
-  background: #FFF;
-  filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.10));
-  //border: solid 2px;
-  position: absolute;
-  top: 165px;
-  left: 365px;
-  display: flex;
-  justify-content: start;
-  align-items: start;
-  flex-wrap: wrap;
-  padding: 20px  0 20px 0;
-
+margin: 20px 0 0 0 ;
+width: 502px;
+height: 184px;
+background: #FFF;
+filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.10));
+//border: solid 2px;
+//position: absolute;
+//top: 165px;
+//left: 365px;
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+flex-wrap: wrap;
+padding: 20px  0 0 0;
 }
-
 .header{
   width: 462px;
   height: 36px;
@@ -24,6 +22,7 @@
   flex-wrap: nowrap;
   margin: 0 20px 0 20px;
   align-items: center;
+
 
 }
 .price{
@@ -46,7 +45,7 @@
 }
 .flight_info{
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
 
   flex-direction: row;
   margin: 0 20px 0 20px;
@@ -55,8 +54,8 @@
 .one_parameter{
   display: flex;
   flex-wrap: wrap;
-  justify-content: start;
-  align-items: start;
+  justify-content: flex-start;
+  align-items: flex-start;
   flex-direction: column;
   width: 141px;
   height: 42px;

@@ -1,7 +1,7 @@
 import React from "react";
 import css from "./app.module.scss";
-import Ticket from "../ticket/ticket";
-import FilterList from "../filter-list/filter-list";
+import TicketCart from "../ticket-cart/ticket-cart";
+import Tabs from "../tabs/tabs";
 import TransfersFilter from "../transfers-filter/transfers-filter";
 import ShowMoreButton from "../show-more-button/show-more-button";
 import Logo from "../logo/logo";
@@ -11,8 +11,8 @@ const App = () => {
     <div className={css.wrapper}>
       <Logo />
       <TransfersFilter />
-      <FilterList />
-      <Ticket />
+      <Tabs />
+      <TicketCart />
       <ShowMoreButton />
     </div>
   );

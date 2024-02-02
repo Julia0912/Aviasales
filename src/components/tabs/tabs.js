@@ -1,6 +1,6 @@
 import React from "react";
-import css from "./filter-list.module.scss";
-const FilterList = () => {
+import css from "./tabs.module.scss";
+const Tabs = () => {
   return (
     <div className={css.filter}>
       <button className={css.button}> Самый дешевый</button>
@@ -9,4 +9,4 @@ const FilterList = () => {
     </div>
   );
 };
-export default FilterList;
+export default Tabs;
