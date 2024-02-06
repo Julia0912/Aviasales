@@ -3,7 +3,7 @@ import css from "./transfers-filter.module.scss";
 import { connect } from "react-redux";
 import * as actions from "../../redux/actions";
 
-const TransfersFilter = ({ state, withoutTransfers, checkBoxClick }) => {
+const TransfersFilter = ({ state, checkBoxClick }) => {
   return (
     <div className={css.transfers}>
       <p> {"Количество пересадок"}</p>
@@ -13,7 +13,7 @@ const TransfersFilter = ({ state, withoutTransfers, checkBoxClick }) => {
             id={"0"}
             onChange={(event) => checkBoxClick(event.target.id)}
             type="checkbox"
-            checked={state.checkBox[0]}
+            checked={state?.checkBox[0]}
           />
           Все
         </li>

@@ -1,17 +1,9 @@
 .wrapper{
-  margin: 0;
-
-
-  width: 960px;
-  //height:1450px;
   padding: 0;
+  margin: auto;
+  width: 960px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start;
-  position: relative;
-  left:225px;
-  top: -10px;
-height:1450px ;
+  gap: 20px;
 
 }

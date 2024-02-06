@@ -1,8 +1,17 @@
 import React from "react";
 import css from "./show-more-button.module.scss";
-const ShowMoreButton = () => {
+import { connect } from "react-redux";
+import * as actions from "../../redux/actions";
+const ShowMoreButton = ({ showMore }) => {
   return (
-    <button className={css.showMoreButton}>Показать еще 5 билетов!</button>
+    <button onClick={() => showMore()} className={css.showMoreButton}>
+      Показать еще 5 билетов!
+    </button>
   );
 };
-export default ShowMoreButton;
+
+const mapStateToProps = (state) => {
+  return { state };
+};
+
+export default connect(mapStateToProps, actions)(ShowMoreButton);

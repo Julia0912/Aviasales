@@ -1,33 +1,50 @@
 .transfers{
   width: 232px;
-  height: 252px;
+  height: 254px;
   border-radius: 5px;
   background: #FFF;
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.10);
   margin: 50px 0 0 103px ;
-  position: absolute;
-  top:100px;
-  left: 10px;
+  position: relative;
+  top:-50px;
   color: #4A4A4A;
   font-family: "Open Sans", sans-serif;
   font-size: 13px;
   font-style: normal;
   font-weight: 300;
-  line-height: 20px; /* 153.846% */
+
+
+
 }
+
+
 ul{
   list-style-type:none;
-
+  height: 195px;
+  margin: 0;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  padding-left:0 ;
 }
 
 .li{
-  margin-bottom: 20px;
-  width: 232px;
-  height: 20px;
-  position: relative;
-  right: 20px;
+  text-align: start;
+  width: 228px;
+  height: 40px;
+  margin: 0;
+  padding: 10px;
+}
+.li:hover{
+  background: #F1FCFF;
+  cursor: pointer;
+  width: 212px;
+  height: 40px;
 }
 p{
   align-items: start;
-  margin: 20px;
+  padding: 20px;
+  margin:0;
+
 }

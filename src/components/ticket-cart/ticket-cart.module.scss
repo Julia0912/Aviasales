@@ -1,7 +1,30 @@
 .wrapper{
-//border: 2px solid;
-  position: absolute;
-  top: 195px;
-  left: 365px;
   list-style: none;
+  position: relative;
+  top:-275px;
+  left: 360px;
+
+}
+.noTickets{
+  width: 502px;
+  height: 164px;
+  border-radius:5px ;
+  border: 2px solid red;
+  background: #fad2d2;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.10);
+  font-size: 12px;
+  font-style: normal;
+  position: relative;
+  top: -250px;
+  left:355px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: #4A4A4A;
+  font-family: "Open Sans",sans-serif;
+  font-weight: 600;
+  line-height: 20px; /* 166.667% */
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
 }

@@ -14,9 +14,7 @@ export default class ApiService {
       `https://aviasales-test-api.kata.academy/tickets?searchId=${searchId}`,
     );
 
-    const ticketsRes = await tickets.json();
-
-    return ticketsRes;
+    return await tickets.json();
   }
 }
 // const api = new ApiService();
