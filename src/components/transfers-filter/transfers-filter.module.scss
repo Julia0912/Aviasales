@@ -12,39 +12,50 @@
   font-size: 13px;
   font-style: normal;
   font-weight: 300;
-
-
-
-}
-
-
-ul{
-  list-style-type:none;
-  height: 195px;
-  margin: 0;
   display: flex;
   justify-content: start;
-  align-items: start;
   flex-direction: column;
-  padding-left:0 ;
+
+
 }
 
-.li{
-  text-align: start;
-  width: 228px;
-  height: 40px;
-  margin: 0;
-  padding: 10px;
-}
-.li:hover{
-  background: #F1FCFF;
-  cursor: pointer;
-  width: 212px;
-  height: 40px;
-}
+
 p{
   align-items: start;
   padding: 20px;
   margin:0;
+
+}
+.checkBox{
+-webkit-appearance: none;
+//  position: absolute;
+
+  //left: -6px;
+}
+.checkBoxSpan{
+  position: absolute;
+  left: 18px;
+  background: url("./checkBox/FormNoActiv.svg")  no-repeat;
+  width: 20px;
+  height: 20px;
+
+}
+.checkBox:checked+.checkBoxSpan{
+  background: url("./checkBox/Union.svg") no-repeat;
+}
+.check{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 45px;
+  width: 228px;
+  height: 40px;
+  position: relative;
+
+}
+.check:hover{
+    background: #F1FCFF;
+    cursor: pointer;
+  width: 232px;
 
 }

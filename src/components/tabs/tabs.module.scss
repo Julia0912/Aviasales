@@ -10,11 +10,16 @@
   background: #FFFFFF;
   border: solid 1px #DFE5EC;
   border-radius: 5px;
-}
-.button:active{
-  color: #FFF;
 
-  text-align: center;
-  font-family: "Open Sans",sans-serif;
-  font-size: 12px;
+}
+
+.button_one{
+
+  border-radius: 5px 0 0 5px;
+}
+.button_two{
+  border-radius: 0;
+}
+.button_three{
+  border-radius:0 5px 5px 0;
 }
